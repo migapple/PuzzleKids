@@ -1,0 +1,26 @@
+{
+  "appId": "com.michel.garlandat.puzzlekids",
+  "appName": "Puzzle Kids",
+  "webDir": "www/",
+  "bundledWebRuntime": false,
+  "backgroundColor": "#070510",
+  "ios": {
+    "backgroundColor": "#070510",
+    "contentInset": "automatic",
+    "scrollEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "CapacitorHttp": {
+      "enabled": true
+    },
+    "Geolocation": {
+      "permissions": ["location"]
+    },
+    "server": {
+      "allowNavigation": ["nominatim.openstreetmap.org"]
+    }
+  }
+}
